@@ -20,9 +20,9 @@ import time
 import traceback
 from concurrent import futures
 
-# import googleclouddebugger
-# import googlecloudprofiler
-# from google.auth.exceptions import DefaultCredentialsError
+import googleclouddebugger
+import googlecloudprofiler
+from google.auth.exceptions import DefaultCredentialsError
 import grpc
 from opencensus.ext.stackdriver import trace_exporter as stackdriver_exporter
 from opencensus.ext.grpc import server_interceptor
