@@ -4,7 +4,7 @@ stages:
 variables:
   DOCKER_REGISTRY: 302990163096.dkr.ecr.eu-west-1.amazonaws.com
   AWS_DEFAULT_REGION: eu-west-1
-  APP_NAME: emailservice
+  APP_NAME: recommendationservice
   #### This is wrong: No need to write here in the future aws_acces_key_id and aws_secret_acess_key
   AWS_ACCESS_KEY_ID: AKIAUNC467SMNVURGBVP
   AWS_SECRET_ACCESS_KEY: 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
